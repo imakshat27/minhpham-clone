@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import './globals.css'
+import HeroText from '@/components/HeroText'
+
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
@@ -40,22 +42,20 @@ export default function Home() {
         <video
           autoPlay
           loop
+          muted
           playsInline
           className="background-video"
         >
           <source src="/videos/background.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
         <div className="overlay" />
         <div className="content">
-          <h1>MINH PHAM</h1>
-          <p>MAKING</p>
-          <p>GOOD</p>
-          <p>SHIT</p>
-          <p>SINCE</p>
-          <p>2009</p>
+          <HeroText />
         </div>
       </div>
     </main>
   )
+
 }

@@ -50,6 +50,7 @@ body {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
+
 }
 
 .content {
@@ -58,8 +59,10 @@ body {
   color: white;
   text-align: center;
   padding-top: 20vh;
-  font-family: sans-serif;
-}
+  font-family: "Avant Garde", sans-serif, serif;
+  font-size: 1.5rem;
+  font-weight: 700;}
+
 
 @media (max-width: 600px) {
   .content {
