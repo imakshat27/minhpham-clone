@@ -48,8 +48,12 @@ export default function Home() {
         </video>
         <div className="overlay" />
         <div className="content">
-          <h1>Welcome to My Next.js Page</h1>
-          <p>This page has a video background.</p>
+          <h1>MINH PHAM</h1>
+          <p>MAKING</p>
+          <p>GOOD</p>
+          <p>SHIT</p>
+          <p>SINCE</p>
+          <p>2009</p>
         </div>
       </div>
     </main>
